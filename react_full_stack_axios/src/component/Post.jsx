@@ -39,7 +39,7 @@ export const Post = () => {
     return (
         <>
             <section>
-                <Form data={data} postDate={setData}/>
+                <Form data={data} addData={setData}/>
             </section>
             <section>
             <ol className="grid grid-cols-3 gap-25 p-10 " dir='ltr'>
